@@ -1,8 +1,8 @@
-import Hello from './hello'
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {MyAutoComplete} from './MyAutoComplete'
 
 ReactDOM.render(
-    <Hello/>,
-    document.body
+  <MyAutoComplete/>,
+  document.body
 )
